@@ -1,0 +1,19 @@
+
+
+@mixin formly_field_row {
+margin-top:4px;
+margin-right: 16px;
+height: 100%;
+overflow: visible;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-content: center;   
+flex-wrap: wrap;
+} 
+
+
+
+.regular-template_form {
+        @include formly_field_row();
+}

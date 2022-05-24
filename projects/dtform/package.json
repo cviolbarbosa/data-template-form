@@ -1,0 +1,21 @@
+{
+  "name": "dtform",
+  "version": "0.1.1",
+  "author": "C Viol Barbosa",
+  "peerDependencies": {
+    "@angular/common": "^13.x",
+    "@angular/core": "^13.x",
+    "@angular/animations": "^13.x",
+    "@angular/cdk": "^13.x",
+    "@angular/material": "^13.x",
+    "@ngx-formly/core": "^5.12.1",
+    "@ngx-formly/material": "^5.12.1"
+  },
+  "dependencies": {
+    "sweetalert2": "^10.16.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@ngx-formly/schematics": "^6.0.0-beta.0"
+  }
+}

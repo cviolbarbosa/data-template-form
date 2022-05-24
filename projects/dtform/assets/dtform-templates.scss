@@ -1,0 +1,86 @@
+
+$marginBottomHeadline: 16px;
+$marginBottomSection: 12px;
+$marginBottomSubsection: 8x;
+
+.formlyTemplateContainer{
+  overflow-x: visible;
+  width: 95%;
+}
+
+
+.formlytemplate_textFlex {
+  flex: 1 0 150px;
+}
+
+
+.formlytemplate_textQuarter {
+  box-sizing: border-box;
+  padding: 0 14px;
+  width: 25%;
+}
+
+
+.formlytemplate_textHalf {
+  box-sizing: border-box;
+  padding: 0 14px 0 14px;
+  width: 50%;
+}
+
+
+.formlytemplate_textFull {
+  box-sizing: border-box;
+  margin-top: 12px;
+  padding: 0 14px 0 14px;
+  width: 100%;
+}
+
+
+
+.formlytemplate_textDescription {
+  margin-top: 16px;
+  width: 100%;
+  padding: 0 4px 0 4px;
+  height: 210px;
+}
+
+.formlytemplate_separator {
+  width: 100%;
+}
+
+.formlytemplate_newline {
+  width: 100%;
+}
+
+.formlytemplate__h1 {
+  margin-bottom: $marginBottomHeadline;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.formlytemplate__h2 {
+  margin-bottom: $marginBottomSection;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 12px;
+
+}
+
+.formlytemplate__h3 {
+  margin-bottom: $marginBottomSubsection;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+
+.formly__heading {
+  font-size: 20px; // text-align: center;
+}
+
+
+.formly mat-input-container {
+  padding-bottom: 0px;
+  margin-bottom: -4px;
+}
+

@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "dtform": {
+      "projectType": "library",
+      "root": "projects/dtform",
+      "sourceRoot": "projects/dtform/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/dtform/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/dtform/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/dtform/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/dtform/src/test.ts",
+            "tsConfig": "projects/dtform/tsconfig.spec.json",
+            "karmaConfig": "projects/dtform/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "dtform"
+}
