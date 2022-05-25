@@ -1,15 +1,15 @@
 # Data Template Form
-It is an angular component  that allows the end-user to interactively create and modify forms and save them as a template. 
+It is an angular component that allows the end-user to interactively create and modify forms, saving them as a template. 
 This code is derived from the project [Data Template](https://www.data-templates.org/) and it is based on  [ngx-formly](https://github.com/ngx-formly/ngx-formly).
 
-![hippo](example.gif)
+![-](../../example.gif)
 
 
 # Get Started
 
 ## Installation
 
-At the moment, dt-form works only with the material style. 
+At the moment, dtform works only with the material style. 
 ### 1 - install material libraries
 ng add @angular/material
 
@@ -18,10 +18,10 @@ npm install @angular/forms @ngx-formly/core @ngx-formly/material --save
 
 ng add @ngx-formly/schematics@next 
 
-### 3 - finally, install Data Template Form:
+### 3 - install Data Template Form:
 npm install dtform
 
-### 4 - import the angular material, ngx-formly and dt-form modules.
+### 4 - import the angular material, ngx-formly and dtform modules.
 
 ```
 import { NgModule } from '@angular/core';
@@ -65,7 +65,7 @@ import { DTFormModule } from 'dtform';
 export class AppModule { }
 ```
 
-### 5 - Add the dt-form-templates style file to angular.json.
+### 5 - Add the dtform-templates style file to angular.json.
 
 ```  
           ...
@@ -86,7 +86,7 @@ export class AppModule { }
 ```
 
 
-## How to use
+# How to use
 
 ```JavaScript
 import { Component } from '@angular/core';
@@ -154,7 +154,7 @@ export class AppComponent {
 
 | Angular version | Formly version         | DT Form     |
 | --------------- | ---------------------- |-------------|
-| Angular >= 13   | `@ngx-formly/core@6.x` | `dtform@1.x`|
+| Angular >= 13   | `@ngx-formly/core@6.x` | `dtform@0.1.x`|
 | Angular >= 11   | `@ngx-formly/core@5.x` | `---`| 
 
 ### Contributing
