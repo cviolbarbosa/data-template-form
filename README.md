@@ -2,7 +2,9 @@
 It is an angular component that allows the end-user to interactively create and modify forms, saving them as a template. 
 This code is derived from the project [Data Template](https://www.data-templates.org/) and it is based on  [ngx-formly](https://github.com/ngx-formly/ngx-formly).
 
-![-](../../example.gif)
+[DEMO](https://stackblitz.com/edit/datatemplate-form-example?file=src%2Fapp%2Fapp.component.ts)
+
+![-](example.gif)
 
 
 # Get Started
