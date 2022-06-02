@@ -1,4 +1,7 @@
 # Data Template Form
+
+[![Join the chat at https://gitter.im/data-template-form/community](https://badges.gitter.im/data-template-form/community.svg)](https://gitter.im/data-template-form/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 It is an angular component that allows the end-user to interactively create and modify forms, saving them as a template. 
 This code is derived from the project [Data Template](https://www.data-templates.org/) and it is based on  [ngx-formly](https://github.com/ngx-formly/ngx-formly).
 
